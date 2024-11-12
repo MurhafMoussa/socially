@@ -4,7 +4,7 @@
 
 ## Demo
 
-[Watch the Demo](assets/demo.mp4)
+[Click here to go to demo then press view raw to download it](assets/demo.mp4)
 
 
 ## Apk
