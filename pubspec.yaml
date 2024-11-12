@@ -1,0 +1,144 @@
+name: socially
+description: "A new Flutter project for task Havebreak."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino icons for iOS-style applications. A collection of icons for Cupertino design.
+  cupertino_icons: ^1.0.8
+
+  # Provides animated transitions when changing themes in your Flutter app.
+  animated_theme_switcher: ^2.0.10
+
+  # Core package for state management based on the BLoC (Business Logic Component) pattern.
+  bloc: ^8.1.4
+
+  # Plugin to check for network connectivity status in a Flutter app.
+  connectivity_plus:
+
+  # A powerful HTTP client for Dart with support for interceptors, global configurations, and request cancellation.
+  dio: ^5.4.3+1
+
+  # Localization library to simplify language translations and text localization in Flutter apps.
+  easy_localization: ^3.0.7
+
+  # Simplifies equality comparisons for Dart objects, useful when working with immutable state management.
+  equatable: ^2.0.5
+
+  # Bloc extensions to simplify state management with Flutter widgets.
+  flutter_bloc: ^8.1.5
+
+  # Allows for easy screen size and layout management across different devices.
+  flutter_screenutil: ^5.9.3
+
+  # A Flutter plugin for showing toast notifications.
+  fluttertoast: ^8.2.8
+
+  # Annotations for code generation for immutable classes, useful with Freezed package.
+  freezed_annotation: ^2.4.1
+
+  # Dependency injection library for Flutter and Dart.
+  get_it: ^7.7.0
+
+  # Router library for easy and declarative navigation.
+  go_router: ^14.1.4
+
+  # Annotations for JSON serialization, commonly used with json_serializable.
+  json_annotation: ^4.9.0
+
+  # Provides a convenient way to handle success or error results with a union type.
+  multiple_result: ^5.1.0
+
+  # Dio logger for printing requests and responses in a structured and pretty format.
+  pretty_dio_logger: ^1.3.1
+
+  # HTTP client generator that simplifies creating HTTP APIs with annotations.
+  retrofit: ^4.1.0
+
+  # Plugin for storing and retrieving small amounts of data in persistent storage.
+  shared_preferences: ^2.2.3
+
+  # A Flutter plugin to render SVG (Scalable Vector Graphics) images.
+  flutter_svg: ^2.0.10+1
+
+  # Provides support for accessing commonly used locations on the filesystem.
+  path_provider: ^2.1.4
+
+  # Lightweight and blazing fast key-value database written in pure Dart. Strongly encrypted using AES-256.
+  hive: ^2.2.3
+
+  # Hive plugin for Flutter to provide native compatibility with Hive.
+  hive_flutter: ^1.1.0
+
+  # Creates shimmering effect for loading indicators, useful for skeleton loading screens.
+  shimmer: ^3.0.0
+
+  # Dependency injection code generator for injectable package.
+  injectable: ^2.5.0
+
+  # Caching library for efficient image loading and caching.
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting rules for Flutter projects.
+  flutter_lints: ^4.0.0
+
+  # Code generator for the Freezed package to create union types and sealed classes.
+  build_runner: ^2.4.11
+
+  # Generates data classes with unions and sealed classes in a declarative way.
+  freezed:
+
+  # Generates JSON serialization code.
+  json_serializable: ^6.8.0
+
+  # Code generator for Retrofit package to create HTTP client code.
+  retrofit_generator: ^8.1.0
+
+  # Command-line tool for creating app launcher icons for both Android and iOS.
+  flutter_launcher_icons: ^0.14.0
+
+  # Generates injectable code for the Injectable package.
+  injectable_generator:
+
+  # Adds splash screen to the Flutter app natively on both Android and iOS.
+  flutter_native_splash:
+
+  # Extension for Hive. Automatically generates TypeAdapters to store any class.
+  hive_generator: ^2.0.1
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/lang/
+
+  fonts:
+    - family: Glory
+      fonts:
+        - asset: assets/fonts/Glory-Regular.ttf
+        - asset: assets/fonts/Glory-ExtraLight.ttf
+          weight: 100
+        - asset: assets/fonts/Glory-Light.ttf
+          weight: 200
+        - asset: assets/fonts/Glory-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Glory-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Glory-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Glory-ExtraBold.ttf
+          weight: 800
